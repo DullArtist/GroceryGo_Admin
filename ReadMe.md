@@ -36,13 +36,28 @@ This project is a part of GroceryGo App ,based on firebase and java.
   
   - Settings
 
-
-
-
-
 ## Screenshots
 
 ---
+
+![Screenshot_20230505_153923_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445563-4aa4c223-e330-49c6-9d2d-d52553ade822.jpg)
+
+![Screenshot_20230505_153939_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445719-e396b74b-3811-4495-91d4-51d512510dff.jpg)
+
+![Screenshot_20230505_153935_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445761-ec41b5aa-2886-4226-81cb-302a568ae680.jpg)
+
+
+![Screenshot_20230505_154025_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445800-ec0c1f7b-212b-45a6-859c-97beceaa3d76.jpg)
+
+![Screenshot_20230505_153758_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445821-39ae7621-9329-49c1-84db-86842b5a7441.jpg)
+
+![Screenshot_20230505_153807_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445861-14b81a31-0c79-4a75-9fe5-baf7e6520b80.jpg)
+
+
+![Screenshot_20230505_154317_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445961-b362b0b4-8ff0-492d-83b9-cf314d04da03.jpg)
+
+![Screenshot_20230505_153814_com mart grocerygo_admin](https://user-images.githubusercontent.com/116881991/236445996-d3db755b-2495-4357-9bb3-29f8ab5f3694.jpg)
+
 
 
 
