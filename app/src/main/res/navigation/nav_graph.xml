@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mart.grocerygo_admin.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_addfoodFragment"
+            app:destination="@id/addfoodFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_updateFoodFragment"
+            app:destination="@id/updateFoodFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_viewMoreFragment"
+            app:destination="@id/viewMoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addfoodFragment"
+        android:name="com.mart.grocerygo_admin.fragments.AddfoodFragment"
+        android:label="Add Item"
+        tools:layout="@layout/fragment_addfood" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mart.grocerygo_admin.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/updateFoodFragment"
+        android:name="com.mart.grocerygo_admin.fragments.UpdateFoodFragment"
+        android:label="Update"
+        tools:layout="@layout/fragment_update_food">
+        <argument
+            android:name="GroceryItem"
+            app:argType="com.mart.grocerygo_admin.model.GroceryModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewMoreFragment"
+        android:name="com.mart.grocerygo_admin.fragments.ViewMoreFragment"
+        android:label="All Items"
+        tools:layout="@layout/fragment_view_more" />
+    <fragment
+        android:id="@+id/dealsFragment"
+        android:name="com.mart.grocerygo_admin.fragments.DealsFragment"
+        android:label="My Deals"
+        tools:layout="@layout/fragment_deals" />
+    <fragment
+        android:id="@+id/revenueFragment"
+        android:name="com.mart.grocerygo_admin.fragments.RevenueFragment"
+        android:label="Revenue"
+        tools:layout="@layout/fragment_revenue" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.mart.grocerygo_admin.fragments.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_orders" />
+</navigation>

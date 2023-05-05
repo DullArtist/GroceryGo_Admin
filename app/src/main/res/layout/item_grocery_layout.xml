@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardUseCompatPadding="true"
+        app:strokeColor="@android:color/transparent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_grocery_food"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_launcher_background" />
+
+
+            <TextView
+                android:id="@+id/tv_grocery_food_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strawberry"
+                app:layout_constraintTop_toBottomOf="@id/iv_grocery_food"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <LinearLayout
+                android:id="@+id/ll_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_quantity"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginEnd="3dp"
+                app:layout_constraintEnd_toStartOf="@+id/ll_price"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_grocery_food_name">
+
+                <TextView
+                    android:id="@+id/tv_grocery_food_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_grocery_food_quantity_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/quantity_kg"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_grocery_food_name">
+
+                <TextView
+                    android:id="@+id/tv_grocery_food_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currency_rs"
+                    android:textColor="#FF9800"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_grocery_food_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="300"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>
