@@ -30,8 +30,6 @@ This project is a part of GroceryGo App ,based on firebase and java.
   
   - Revenue
   
-  - Orders
-  
   - Settings
 
 ## Screenshots
